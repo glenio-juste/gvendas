@@ -26,6 +26,9 @@ public class CategoriaServico {
 	}
 	
 	
+	public Categoria salvar(Categoria categoria) {
+		return categoriaRepositorio.save(categoria);
+	}
 	
 	
 }
